@@ -1,0 +1,152 @@
+<OutputScheme>
+<!--
+     Each file will have a set of concentrations in compartments
+     sampled according to a specific dt
+-->
+
+<!--
+    Every Output block must have in its definition one (and only)
+    instance of:
+     * filename
+    And might have one (and only) instance of:
+     * region or
+     * dt
+    If "region" is ommited then the concs for the whole system will be
+    saved.
+    If "dt" is ommited than the concs will be written at each time step.
+    So the "io file" will be dependent on information stated in the
+    "morph" (regions) and "model" (dt).
+-->
+
+    <OutputSet filename = "cell0"  dt="100.0">
+
+        <OutputSpecie name="Ca"                   />
+        <OutputSpecie name="CaOut"                />
+        <OutputSpecie name="Calbin"               />
+        <OutputSpecie name="CalbinCa"             />
+        <OutputSpecie name="pmca"                 />
+        <OutputSpecie name="pmcaCa"               />
+        <OutputSpecie name="ncx"                  />
+        <OutputSpecie name="ncxCa"                />
+
+        <OutputSpecie name="LOut"                 />
+        <OutputSpecie name="L"                    />
+
+        <OutputSpecie name="R"                    />
+        <OutputSpecie name="G"                    />
+        <OutputSpecie name="LRG"                  />
+        <OutputSpecie name="LR"                   />
+        <OutputSpecie name="GR"                   />
+        <OutputSpecie name="GaGTP"                />
+        <OutputSpecie name="GaGDP"                />
+        <OutputSpecie name="LRGbg"                />
+        <OutputSpecie name="Gbg"                  />
+
+        <OutputSpecie name="AC"                   />
+        <OutputSpecie name="ACGaGTP"              />
+        <OutputSpecie name="ACGaGTPCa"            />
+        <OutputSpecie name="ATP"                  />
+        <OutputSpecie name="ACGaGTPCaATP"         />
+        <OutputSpecie name="ACGaGTPATP"           />
+        <OutputSpecie name="cAMP"                 />
+        <OutputSpecie name="ACCa"                 />
+
+        <OutputSpecie name="PDE1"                 />
+        <OutputSpecie name="PDE1CamCa4"           />
+        <OutputSpecie name="PDE1CamCa4cAMP"       />
+
+        <OutputSpecie name="PDE10"                />
+        <OutputSpecie name="PDE10cAMP"            />
+        <OutputSpecie name="PKAcPDE10"            />
+        <OutputSpecie name="PKAcPDE10cAMP"        />
+        <OutputSpecie name="PKAcAMP4PDE10"        />
+        <OutputSpecie name="PKAcAMP4PDE10cAMP"    />
+        <OutputSpecie name="pPDE10"               />
+        <OutputSpecie name="pPDE10cAMP"           />
+        <OutputSpecie name="AMP"                  />
+
+        <OutputSpecie name="CamCa2"               />
+        <OutputSpecie name="CamCa4"               />
+        <OutputSpecie name="Cam"                  />
+        <OutputSpecie name="PP2B"                 />
+        <OutputSpecie name="PP2BCam"              />
+        <OutputSpecie name="PP2BCamCa2"           />
+        <OutputSpecie name="PP2BCamCa4"           />
+
+        <OutputSpecie name="CK"                   />
+        <OutputSpecie name="CKCamCa4"             />
+        <OutputSpecie name="CKpCamCa4"            />
+        <OutputSpecie name="CKp"                  />
+        <OutputSpecie name="Complex"              />
+        <OutputSpecie name="pComplex"             />
+        <OutputSpecie name="CKpPP1"               />
+        <OutputSpecie name="CKpCamCa4PP1"         />
+        <OutputSpecie name="PP1"                  />
+
+        <OutputSpecie name="PKA"                  />
+        <OutputSpecie name="PKAcAMP2"             />
+        <OutputSpecie name="PKAcAMP4"             />
+        <OutputSpecie name="R2C_cAMP4"            />
+        <OutputSpecie name="PKAc"                 />
+        <OutputSpecie name="PKAr"                 />
+
+        <OutputSpecie name="PP2A_BPR72"           />
+        <OutputSpecie name="PP2A_B56d"            />
+        <OutputSpecie name="PP1PP2BCamCa4"        />
+
+        <OutputSpecie name="D32"                  />
+        <OutputSpecie name="D32PKA"               />
+        <OutputSpecie name="D32PKAcAMP4"          />
+        <OutputSpecie name="Dp34"                 />
+        <OutputSpecie name="Dp34PP1"              />
+        <OutputSpecie name="Dp34PP2BCamCa4"       />
+        <OutputSpecie name="Dp34PP1PP2BCamCa4"    />
+        <OutputSpecie name="Dp34PP2A_BPR72"       />
+        <OutputSpecie name="Dp34PP2A_B56d"        />
+        <OutputSpecie name="PP1PP2A_BPR72"        />
+        <OutputSpecie name="PP1PP2A_B56d"         />
+        <OutputSpecie name="Dp34PP1PP2A_BPR72"    />
+        <OutputSpecie name="Dp34PP1PP2A_B56d"     />
+
+        <OutputSpecie name="Cdk5"                 />
+        <OutputSpecie name="CDK5D32"              />
+        <OutputSpecie name="Dp75"                 />
+        <OutputSpecie name="PKAi"                 />
+        <OutputSpecie name="Dp75PP2A_BPR72"       />
+        <OutputSpecie name="Dp75PP2A_B56d"        />
+        <OutputSpecie name="Dp75PPaC"             />
+        <OutputSpecie name="Dp75PPAP"             />
+        <OutputSpecie name="PKAcPP2A_B56d"        />
+        <OutputSpecie name="PKAcAMP4PP2A_B56d"    />
+        <OutputSpecie name="PP2AP"                />
+        <OutputSpecie name="PP2AC"                />
+    </OutputSet>
+
+    <OutputSet region ="PSD" filename = "cell1"  dt="10.0">
+        <OutputSpecie name="GluR1"                />
+        <OutputSpecie name="GluR1_S845"           />
+        <OutputSpecie name="GluR1_S831"           />
+        <OutputSpecie name="GluR1_S845_S831"      />
+
+        <OutputSpecie name="GluR1_PKAc"           />
+        <OutputSpecie name="GluR1_PKAcAMP4"       />
+        <OutputSpecie name="GluR1_S831_PKAc"      />
+        <OutputSpecie name="GluR1_S831_PKAcAMP4"  />
+
+        <OutputSpecie name="GluR1_CKCamCa4"       />
+        <OutputSpecie name="GluR1_CKpCamCa4"      />
+        <OutputSpecie name="GluR1_CKp"            />
+        <OutputSpecie name="GluR1_S845_CKCamCa4"  />
+        <OutputSpecie name="GluR1_S845_CKpCamCa4" />
+        <OutputSpecie name="GluR1_S845_CKp"       />
+
+        <OutputSpecie name="GluR1_S845_PP1"       />
+        <OutputSpecie name="GluR1_S845_S831_PP1"  />
+        <OutputSpecie name="GluR1_S831_PP1"       />
+
+        <OutputSpecie name="GluR1_S845_PP2B"      />
+        <OutputSpecie name="GluR1_S845_S831_PP2B" />
+
+    </OutputSet>
+
+</OutputScheme>

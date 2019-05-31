@@ -1,0 +1,97 @@
+Files used to run simulations from 
+
+Oliveira R.F., Kim M., Blackwell K.T. (2012) Subcellular Location of
+PKA Controls Striatal Plasticity: Stochastic Simulations in Spiny
+Dendrites.  PLoS Comput Biol 8:e1002383
+
+These xml files are used as input to NeuroRD - java software for
+computationally efficient stochastic simulation of reaction-diffusion
+systems.  NeuroRD (and information on how to use it) is available for
+free download from http://krasnow1.gmu.edu/CENlab/software.html.  The
+version used for simulations in the publication,
+stochdiff-2.0.3.3-mol.jar, is included in this tar file
+
+Several random seeds were used for these figures, only one of the
+random seeds is provided in this tar file.
+
+A. Files to generate figures 3 - 5.  
+  1. Top level model files:
+    MSPNmodel_A_5DaStim_4spine_newa.xml  MSPNmodel_D_5DaStim_4spine_newa.xml
+    MSPNmodel_B_5DaStim_4spine_newa.xml  MSPNmodel_E_5DaStim_4spine_newa.xml
+    MSPNmodel_C_5DaStim_4spine_newa.xml  MSPNmodel_F_5DaStim_4spine_newa.xml
+    Letters A-F above indicate the following:
+    A: PKA and AC colocalized in the spine (Fig 3, 4)
+    B: PKA in the dendrite, AC in the spine (Fig 4)
+    C: AC in the spine, PKA diffusely distributed (Fig 5)
+    D: PKA in the spine, AC in the dendrite (Fig 3, 4)
+    E: PKA and AC colocalized in the dendrite (Fig 4)
+    F: AC in the dendrite, PKA diffusely distributed (Fig 5)
+
+Here is an example run command (for D above) for a unix system shell
+prompt:
+
+java -jar ./stochdiff-2.0.3.3-mol.jar MSPNmodel_E_5DaStim_4spine_newa.xml \
+MSPNmodel_E_5DaStim_4spine_newa.out >> MSPNmodel_E_5DaStim_4spine_newa.log
+
+  2. MSPNreactions_4spine_new.xml
+    File containing the reactions.  This file is also used for the Da
+    + Ca simulations (of figure 7), and the bath application (see
+    below)
+  3. MSPNmorph_4spinea.xml 
+    file specifying the morphology. This file is also used for the Da
+    + Ca simulations, the bath application, robustness simulations
+    (fig 6), and also fig 8
+  4. MSPNstim_5DaStim_4spine2.xml
+    dopamine stimulation.
+  5. Initial conditions files.  One each for cases A through F
+    MSPNic_A_4spine_new.xml (Fig 3, 4)
+    MSPNic_B_4spine_new.xml (Fig 4)
+    MSPNic_C_4spine_new.xml (Fig 5)
+    MSPNic_D_4spine_new.xml (Fig 3, 4)
+    MSPNic_E_4spine_new.xml (Fig 4)
+    MSPNic_F_4spine_new.xml (Fig 5)
+  6. MSPNio_4spine_newmorph.xml
+   This specifies the molecules to output to the -conc.txt files
+
+B. Files used to run bath application simulations (figure 2):
+  1. Top level model files: 
+    MSPNmodel_AE_CaDaBath_4spine_newa.xml - calcium + dopamine
+    MSPNmodel_AE_CaBath_4spine_newa2.xml - dopamine alone
+  2. Same reaction files, morphology files, and io files as above
+  3. Initial conditions place have of PKA and AC in the spine and half
+  in the dendrite: MSPNic_AE_4spine_new.xml
+  4. stimulation files:
+    MSPNstim_Ca_Bath2.xml for calcium alone
+    MSPNstim_CaDaBath.xml for calcium plus dopamine
+
+C. Files used for control long dendrite + 12 spine simulations (Fig 9:
+panels A,B,C,E)
+  1. top level model file:
+    MSPNmodel_A_5DaStim_12spine_newa50_long.xml
+  2. initial conditions - multiple dendritic segments necessitates
+  multiple surfaceDensity specifications.
+    MSPNic_A_12spine_new_long.xml
+  3. morphology (obviously must be longer)
+    MSPNmorph_12spine_long.xml
+  4. reactions - this has slower diffusion constant that the 4 spine
+  reaction file to ensure a dopamine gradient
+   MSPNreactions_12spine_new50.xml
+  5. stimulation - slighly more dopamine to compensate for larger
+  volume to diffuse in, also need to specify the injection site that
+  corresponds to the differently numbered spines.
+    MSPNstim_5DaStim_12spine_50_long.xml
+  6. MSPNio_12spine_newmorph_long.xml
+    fewer molecules just to save disk space
+
+Examples of how to run simulations using NeuroRD is the NeuroRD.bat.
+Examples of how to use the post-processor to extract single molecule
+spatial information is in NRDpost.bat
+
+Note the NRDpost program referred to in NRDpost.bat is built with the
+command
+
+c++ nrdpost.cpp -o NRDpost
+
+(the most recent version of NRDpost is available at
+http://krasnow1.gmu.edu/CENlab/software.html under the Postprocessing
+link http://krasnow1.gmu.edu/CENlab/software/PostProcess.tar.gz)

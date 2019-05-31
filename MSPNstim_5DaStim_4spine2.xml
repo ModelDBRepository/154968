@@ -1,0 +1,89 @@
+<StimulationSet>
+
+    <!-- the injectionSite must match a regionLabel deefined in the morphology -->
+   
+
+  <InjectionStim specieID="L" injectionSite="sa3[0].pointA">
+        <onset>               50000          </onset>
+        <duration>            5              </duration>
+        <rate>                10.0           </rate>
+        <period>              20             </period>
+        <end>                 51000          </end>
+  </InjectionStim>
+
+  <InjectionStim specieID="L" injectionSite="sa3[0].pointA">
+        <onset>               70000          </onset>
+        <duration>            5              </duration>
+        <rate>                10.0           </rate>
+        <period>              20             </period>
+        <end>                 71000          </end>
+  </InjectionStim>
+
+  <InjectionStim specieID="L" injectionSite="sa3[0].pointA">
+        <onset>               90000          </onset>
+        <duration>            5              </duration>
+        <rate>                10.0           </rate>
+        <period>              20             </period>
+        <end>                 91000          </end>
+  </InjectionStim>
+
+  <InjectionStim specieID="L" injectionSite="sa3[0].pointA">
+        <onset>               110000         </onset>
+        <duration>            5              </duration>
+        <rate>                10.0           </rate>
+        <period>              20             </period>
+        <end>                 111000         </end>
+  </InjectionStim>
+
+  <InjectionStim specieID="L" injectionSite="sa3[0].pointA">
+        <onset>               130000         </onset>
+        <duration>            5              </duration>
+        <rate>                10.0           </rate>
+        <period>              20             </period>
+        <end>                 131000         </end>
+  </InjectionStim>
+
+
+
+
+
+  <InjectionStim specieID="L" injectionSite="sa1[0].pointA">
+        <onset>               50000          </onset>
+        <duration>            5              </duration>
+        <rate>                10.0           </rate>
+        <period>              20             </period>
+        <end>                 51000          </end>
+  </InjectionStim>
+
+  <InjectionStim specieID="L" injectionSite="sa1[0].pointA">
+        <onset>               70000          </onset>
+        <duration>            5              </duration>
+        <rate>                10.0           </rate>
+        <period>              20             </period>
+        <end>                 71000          </end>
+  </InjectionStim>
+
+  <InjectionStim specieID="L" injectionSite="sa1[0].pointA">
+        <onset>               90000          </onset>
+        <duration>            5              </duration>
+        <rate>                10.0           </rate>
+        <period>              20             </period>
+        <end>                 91000          </end>
+  </InjectionStim>
+
+  <InjectionStim specieID="L" injectionSite="sa1[0].pointA">
+        <onset>               110000         </onset>
+        <duration>            5              </duration>
+        <rate>                10.0           </rate>
+        <period>              20             </period>
+        <end>                 111000         </end>
+  </InjectionStim>
+
+  <InjectionStim specieID="L" injectionSite="sa1[0].pointA">
+        <onset>               130000         </onset>
+        <duration>            5              </duration>
+        <rate>                10.0           </rate>
+        <period>              20             </period>
+        <end>                 131000         </end>
+  </InjectionStim>
+</StimulationSet>

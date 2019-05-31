@@ -1,0 +1,76 @@
+NRDpost -i[MSPNmodel_A_5DaStim_4spine_PP1.out-cell0-conc.txt] -m[Dp34PP1] -r[MSPNmodel_A_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_A_5DaStim_PP1avg_Dp34PP1]
+NRDpost -i[MSPNmodel_A_5DaStim_4spine_PP1.out-cell0-conc.txt] -m[Dp34] -r[MSPNmodel_A_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_A_5DaStim_PP1avg_Dp34]
+NRDpost -i[MSPNmodel_A_5DaStim_4spine_PP1.out-cell0-conc.txt] -m[Dp34PP1PP2BCamCa4] -r[MSPNmodel_A_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_A_5DaStim_PP1avg_Dp34PP1PP2BCamCa4] 
+NRDpost -i[MSPNmodel_A_5DaStim_4spine_PP1.out-cell0-conc.txt] -m[Dp34PP1PP2A_BPR72] -r[MSPNmodel_A_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_A_5DaStim_PP1avg_Dp34PP1PP2A_BPR72] 
+NRDpost -i[MSPNmodel_A_5DaStim_4spine_PP1.out-cell0-conc.txt] -m[Dp34PP1PP2A_B56d] -r[MSPNmodel_A_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_A_5DaStim_PP1avg_Dp34PP1PP2A_B56d]
+
+NRDpost -i[MSPNmodel_A_5DaStim_4spine_PP1.out-cell1-conc.txt] -m[GluR1_S845] -r[MSPNmodel_A_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_A_5DaStim_PP1avg_GluR1_S845]
+NRDpost -i[MSPNmodel_A_5DaStim_4spine_PP1.out-cell1-conc.txt] -m[GluR1_S845_S831] -r[MSPNmodel_A_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_A_5DaStim_PP1avg_GluR1_S845_S831]
+NRDpost -i[MSPNmodel_A_5DaStim_4spine_PP1.out-cell1-conc.txt] -m[GluR1_S845_PP1] -r[MSPNmodel_A_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_A_5DaStim_PP1avg_GluR1_S845_PP1]
+NRDpost -i[MSPNmodel_A_5DaStim_4spine_PP1.out-cell1-conc.txt] -m[GluR1_S845_S831_PP1] -r[MSPNmodel_A_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_A_5DaStim_PP1avg_GluR1_S845_S831_PP1]
+
+NRDpost -i[MSPNmodel_A_5DaStim_4spine_PP1.out-cell0-conc.txt] -m[PKAc] -r[MSPNmodel_A_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_A_5DaStim_PP1avg_PKAc]
+NRDpost -i[MSPNmodel_A_5DaStim_4spine_PP1.out-cell0-conc.txt] -m[D32PKAc] -r[MSPNmodel_A_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_A_5DaStim_PP1avg_D32PKAc]
+NRDpost -i[MSPNmodel_A_5DaStim_4spine_PP1.out-cell0-conc.txt] -m[PKAcPP2A_B56d] -r[MSPNmodel_A_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_A_5DaStim_PP1avg_PKAcPP2A_B56d]
+NRDpost -i[MSPNmodel_A_5DaStim_4spine_PP1.out-cell0-conc.txt] -m[PKAcPDE10] -r[MSPNmodel_A_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_A_5DaStim_PP1avg_PKAcPDE10]
+NRDpost -i[MSPNmodel_A_5DaStim_4spine_PP1.out-cell0-conc.txt] -m[PKAcPDE10cAMP] -r[MSPNmodel_A_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_A_5DaStim_PP1avg_PKAcPDE10cAMP]
+
+NRDpost -i[MSPNmodel_E_5DaStim_4spine_PP1.out-cell0-conc.txt] -m[Dp34PP1] -r[MSPNmodel_E_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_E_5DaStim_PP1avg_Dp34PP1] 
+NRDpost -i[MSPNmodel_E_5DaStim_4spine_PP1.out-cell0-conc.txt] -m[Dp34] -r[MSPNmodel_E_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_E_5DaStim_PP1avg_Dp34]
+NRDpost -i[MSPNmodel_E_5DaStim_4spine_PP1.out-cell0-conc.txt] -m[Dp34PP1PP2BCamCa4] -r[MSPNmodel_E_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_E_5DaStim_PP1avg_Dp34PP1PP2BCamCa4]
+NRDpost -i[MSPNmodel_E_5DaStim_4spine_PP1.out-cell0-conc.txt] -m[Dp34PP1PP2A_BPR72] -r[MSPNmodel_E_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_E_5DaStim_PP1avg_Dp34PP1PP2A_BPR72]
+NRDpost -i[MSPNmodel_E_5DaStim_4spine_PP1.out-cell0-conc.txt] -m[Dp34PP1PP2A_B56d] -r[MSPNmodel_E_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_E_5DaStim_PP1avg_Dp34PP1PP2A_B56d]
+
+NRDpost -i[MSPNmodel_E_5DaStim_4spine_PP1.out-cell1-conc.txt] -m[GluR1_S845] -r[MSPNmodel_E_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_E_5DaStim_PP1avg_GluR1_S845]
+NRDpost -i[MSPNmodel_E_5DaStim_4spine_PP1.out-cell1-conc.txt] -m[GluR1_S845_S831] -r[MSPNmodel_E_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_E_5DaStim_PP1avg_GluR1_S845_S831]
+NRDpost -i[MSPNmodel_E_5DaStim_4spine_PP1.out-cell1-conc.txt] -m[GluR1_S845_PP1] -r[MSPNmodel_E_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_E_5DaStim_PP1avg_GluR1_S845_PP1]
+NRDpost -i[MSPNmodel_E_5DaStim_4spine_PP1.out-cell1-conc.txt] -m[GluR1_S845_S831_PP1] -r[MSPNmodel_E_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_E_5DaStim_PP1avg_GluR1_S845_S831_PP1]
+
+NRDpost -i[MSPNmodel_E_5DaStim_4spine_PP1.out-cell0-conc.txt] -m[PKAc] -r[MSPNmodel_E_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_E_5DaStim_PP1avg_PKAc]
+NRDpost -i[MSPNmodel_E_5DaStim_4spine_PP1.out-cell0-conc.txt] -m[D32PKAc] -r[MSPNmodel_E_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_E_5DaStim_PP1avg_D32PKAc]
+NRDpost -i[MSPNmodel_E_5DaStim_4spine_PP1.out-cell0-conc.txt] -m[PKAcPP2A_B56d] -r[MSPNmodel_E_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_E_5DaStim_PP1avg_PKAcPP2A_B56d]
+NRDpost -i[MSPNmodel_E_5DaStim_4spine_PP1.out-cell0-conc.txt] -m[PKAcPDE10] -r[MSPNmodel_E_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_E_5DaStim_PP1avg_PKAcPDE10]
+NRDpost -i[MSPNmodel_E_5DaStim_4spine_PP1.out-cell0-conc.txt] -m[PKAcPDE10cAMP] -r[MSPNmodel_E_5DaStim_4spine_PP1.out-mesh.txt] -n -o[MSPNmodel_E_5DaStim_PP1avg_PKAcPDE10cAMP]
+
+NRDpost -i[MSPNmodel_AE_CaBath_4spineLabelC-cell0-conc.txt] -m[Dp34PP1] -r[MSPNmodel_AE_CaBath_4spineLabelC-mesh.txt] -n -o[MSPNmodel_AE_CaBathavg_Dp34PP1]
+NRDpost -i[MSPNmodel_AE_CaBath_4spineLabelC-cell0-conc.txt] -m[Dp34] -r[MSPNmodel_AE_CaBath_4spineLabelC-mesh.txt] -n -o[MSPNmodel_AE_CaBathavg_Dp34]
+NRDpost -i[MSPNmodel_AE_CaBath_4spineLabelC-cell0-conc.txt] -m[Dp34PP1PP2BCamCa4] -r[MSPNmodel_AE_CaBath_4spineLabelC-mesh.txt] -n -o[MSPNmodel_AE_CaBathavg_Dp34PP1PP2BCamCa4] 
+NRDpost -i[MSPNmodel_AE_CaBath_4spineLabelC-cell0-conc.txt] -m[Dp34PP1PP2A_BPR72] -r[MSPNmodel_AE_CaBath_4spineLabelC-mesh.txt] -n -o[MSPNmodel_AE_CaBathavg_Dp34PP1PP2A_BPR72] 
+NRDpost -i[MSPNmodel_AE_CaBath_4spineLabelC-cell0-conc.txt] -m[Dp34PP1PP2A_B56d] -r[MSPNmodel_AE_CaBath_4spineLabelC-mesh.txt] -n -o[MSPNmodel_AE_CaBathavg_Dp34PP1PP2A_B56d]
+NRDpost -i[MSPNmodel_AE_CaBath_4spineLabelC-cell0-conc.txt] -m[PP2BCamCa4] -r[MSPNmodel_AE_CaBath_4spineLabelC-mesh.txt] -n -o[MSPNmodel_AE_CaBathavg_PP2B]
+
+NRDpost -i[MSPNmodel_AE_CaBath_4spineLabelC-cell1-conc.txt] -m[GluR1_S845] -r[MSPNmodel_AE_CaBath_4spineLabelC-mesh.txt]  -n -o[MSPNmodel_AE_CaBathavgGluR1_S845]
+NRDpost -i[MSPNmodel_AE_CaBath_4spineLabelC-cell1-conc.txt] -m[GluR1_S845_S831] -r[MSPNmodel_AE_CaBath_4spineLabelC-mesh.txt]  -n -o[MSPNmodel_AE_CaBathavgGluR1_S845_S831]
+NRDpost -i[MSPNmodel_AE_CaBath_4spineLabelC-cell1-conc.txt] -m[GluR1_S845_PP1] -r[MSPNmodel_AE_CaBath_4spineLabelC-mesh.txt]  -n -o[MSPNmodel_AE_CaBathavgGluR1_S845_PP1]
+NRDpost -i[MSPNmodel_AE_CaBath_4spineLabelC-cell1-conc.txt] -m[GluR1_S845_S831_PP1] -r[MSPNmodel_AE_CaBath_4spineLabelC-mesh.txt]  -n -o[MSPNmodel_AE_CaBathavgGluR1_S845_S831_PP1]
+
+NRDpost -i[MSPNmodel_AE_CaBath_4spineLabelC-cell0-conc.txt] -m[Ca] -r[MSPNmodel_AE_CaBath_4spineLabelC-mesh.txt]  -n -o[MSPNmodel_AE_CaBathavgCa]
+NRDpost -i[MSPNmodel_AE_CaBath_4spineLabelC-cell0-conc.txt] -m[Dp75] -r[MSPNmodel_AE_CaBath_4spineLabelC-mesh.txt]  -n -o[MSPNmodel_AE_CaBathavgDp75]
+NRDpost -i[MSPNmodel_AE_CaBath_4spineLabelC-cell0-conc.txt] -m[PKAi] -r[MSPNmodel_AE_CaBath_4spineLabelC-mesh.txt]  -n -o[MSPNmodel_AE_CaBathavgPKAi]
+NRDpost -i[MSPNmodel_AE_CaBath_4spineLabelC-cell0-conc.txt] -m[Dp75PP2A_BPR72] -r[MSPNmodel_AE_CaBath_4spineLabelC-mesh.txt]  -n -o[MSPNmodel_AE_CaBathavgDp75PP2A_BPR72]
+NRDpost -i[MSPNmodel_AE_CaBath_4spineLabelC-cell0-conc.txt] -m[Dp75PP2A_B56d] -r[MSPNmodel_AE_CaBath_4spineLabelC-mesh.txt]  -n -o[MSPNmodel_AE_CaBathavgDp75PP2A_B56d]
+NRDpost -i[MSPNmodel_AE_CaBath_4spineLabelC-cell0-conc.txt] -m[Dp75PPaC] -r[MSPNmodel_AE_CaBath_4spineLabelC-mesh.txt]  -n -o[MSPNmodel_AE_CaBathavgDp75PPaC]
+NRDpost -i[MSPNmodel_AE_CaBath_4spineLabelC-cell0-conc.txt] -m[Dp75PPAP] -r[MSPNmodel_AE_CaBath_4spineLabelC-mesh.txt]  -n -o[MSPNmodel_AE_CaBathavgDp75PPAP]
+
+NRDpost -i[MSPNmodel_AE_CaDaBath_4spineLabelC-cell0-conc.txt] -m[Dp34PP1] -r[MSPNmodel_AE_CaDaBath_4spineLabelC-mesh.txt] -n -o[MSPNmodel_AE_CaDaBathavg_Dp34PP1]
+NRDpost -i[MSPNmodel_AE_CaDaBath_4spineLabelC-cell0-conc.txt] -m[Dp34] -r[MSPNmodel_AE_CaDaBath_4spineLabelC-mesh.txt] -n -o[MSPNmodel_AE_CaDaBathavg_Dp34]
+NRDpost -i[MSPNmodel_AE_CaDaBath_4spineLabelC-cell0-conc.txt] -m[Dp34PP1PP2BCamCa4] -r[MSPNmodel_AE_CaDaBath_4spineLabelC-mesh.txt] -n -o[MSPNmodel_AE_CaDaBathavg_Dp34PP1PP2BCamCa4] 
+NRDpost -i[MSPNmodel_AE_CaDaBath_4spineLabelC-cell0-conc.txt] -m[Dp34PP1PP2A_BPR72] -r[MSPNmodel_AE_CaDaBath_4spineLabelC-mesh.txt] -n -o[MSPNmodel_AE_CaDaBathavg_Dp34PP1PP2A_BPR72] 
+NRDpost -i[MSPNmodel_AE_CaDaBath_4spineLabelC-cell0-conc.txt] -m[Dp34PP1PP2A_B56d] -r[MSPNmodel_AE_CaDaBath_4spineLabelC-mesh.txt] -n -o[MSPNmodel_AE_CaDaBathavg_Dp34PP1PP2A_B56d]
+NRDpost -i[MSPNmodel_AE_CaDaBath_4spineLabelC-cell0-conc.txt] -m[PP2BCamCa4] -r[MSPNmodel_AE_CaDaBath_4spineLabelC-mesh.txt] -n -o[MSPNmodel_AE_CaDaBathavg_PP2B]
+
+NRDpost -i[MSPNmodel_AE_CaDaBath_4spineLabelC-cell1-conc.txt] -m[GluR1_S845] -r[MSPNmodel_AE_CaDaBath_4spineLabelC-mesh.txt]  -n -o[MSPNmodel_AE_CaDaBathavgGluR1_S845]
+NRDpost -i[MSPNmodel_AE_CaDaBath_4spineLabelC-cell1-conc.txt] -m[GluR1_S845_S831] -r[MSPNmodel_AE_CaDaBath_4spineLabelC-mesh.txt]  -n -o[MSPNmodel_AE_CaDaBathavgGluR1_S845_S831]
+NRDpost -i[MSPNmodel_AE_CaDaBath_4spineLabelC-cell1-conc.txt] -m[GluR1_S845_PP1] -r[MSPNmodel_AE_CaDaBath_4spineLabelC-mesh.txt]  -n -o[MSPNmodel_AE_CaDaBathavgGluR1_S845_PP1]
+NRDpost -i[MSPNmodel_AE_CaDaBath_4spineLabelC-cell1-conc.txt] -m[GluR1_S845_S831_PP1] -r[MSPNmodel_AE_CaDaBath_4spineLabelC-mesh.txt]  -n -o[MSPNmodel_AE_CaDaBathavgGluR1_S845_S831_PP1]
+
+NRDpost -i[MSPNmodel_AE_CaDaBath_4spineLabelC-cell0-conc.txt] -m[Ca] -r[MSPNmodel_AE_CaDaBath_4spineLabelC-mesh.txt]  -n -o[MSPNmodel_AE_CaDaBathavgCa]
+NRDpost -i[MSPNmodel_AE_CaDaBath_4spineLabelC-cell0-conc.txt] -m[Dp75] -r[MSPNmodel_AE_CaDaBath_4spineLabelC-mesh.txt]  -n -o[MSPNmodel_AE_CaDaBathavgDp75]
+NRDpost -i[MSPNmodel_AE_CaDaBath_4spineLabelC-cell0-conc.txt] -m[PKAi] -r[MSPNmodel_AE_CaDaBath_4spineLabelC-mesh.txt]  -n -o[MSPNmodel_AE_CaDaBathavgPKAi]
+NRDpost -i[MSPNmodel_AE_CaDaBath_4spineLabelC-cell0-conc.txt] -m[Dp75PP2A_BPR72] -r[MSPNmodel_AE_CaDaBath_4spineLabelC-mesh.txt]  -n -o[MSPNmodel_AE_CaDaBathavgDp75PP2A_BPR72]
+NRDpost -i[MSPNmodel_AE_CaDaBath_4spineLabelC-cell0-conc.txt] -m[Dp75PP2A_B56d] -r[MSPNmodel_AE_CaDaBath_4spineLabelC-mesh.txt]  -n -o[MSPNmodel_AE_CaDaBathavgDp75PP2A_B56d]
+NRDpost -i[MSPNmodel_AE_CaDaBath_4spineLabelC-cell0-conc.txt] -m[Dp75PPaC] -r[MSPNmodel_AE_CaDaBath_4spineLabelC-mesh.txt]  -n -o[MSPNmodel_AE_CaDaBathavgDp75PPaC]
+NRDpost -i[MSPNmodel_AE_CaDaBath_4spineLabelC-cell0-conc.txt] -m[Dp75PPAP] -r[MSPNmodel_AE_CaDaBath_4spineLabelC-mesh.txt]  -n -o[MSPNmodel_AE_CaDaBathavgDp75PPAP]
+
+
+

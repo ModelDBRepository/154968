@@ -1,0 +1,281 @@
+<StimulationSet>
+
+    <!-- the injectionSite must match a regionLabel deefined in the morphology -->
+<!-- 1:L -->
+  <InjectionStim specieID="L" injectionSite="sa1[0].pointA">
+        <onset>                50000         </onset>
+        <duration>            451000         </duration>
+        <rate>                7.5            </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="L" injectionSite="sa3[0].pointA">
+        <onset>                50000         </onset>
+        <duration>            451000         </duration>
+        <rate>                7.5            </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="L" injectionSite="pointB">
+        <onset>                50000         </onset>
+        <duration>            451000         </duration>
+        <rate>                7.5            </rate>
+  </InjectionStim>
+  
+<!-- 1:Ca -->
+  <InjectionStim specieID="Ca" injectionSite="sa1[0].pointA">
+        <onset>               50000          </onset>
+        <duration>            491000         </duration>
+        <rate>                8.5              </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="Ca" injectionSite="sa3[0].pointA">
+        <onset>               50000          </onset>
+        <duration>            491000         </duration>
+        <rate>                8.5              </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="Ca" injectionSite="pointB">
+        <onset>               50000          </onset>
+        <duration>            491000         </duration>
+        <rate>                8.5              </rate>
+  </InjectionStim>
+
+
+
+<!-- 2 -->
+  <InjectionStim specieID="CaB" injectionSite="sa1[0].pointA">
+        <onset>               80000          </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="CaB" injectionSite="sa3[0].pointA">
+        <onset>               80000          </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="CaB" injectionSite="pointB">
+        <onset>               80000          </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+
+
+<!-- 3 -->
+  <InjectionStim specieID="CaB" injectionSite="sa1[0].pointA">
+        <onset>               120000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="CaB" injectionSite="sa3[0].pointA">
+        <onset>               120000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="CaB" injectionSite="pointB">
+        <onset>               120000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+
+
+<!-- 4 -->
+  <InjectionStim specieID="CaB" injectionSite="sa1[0].pointA">
+        <onset>               160000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="CaB" injectionSite="sa3[0].pointA">
+        <onset>               160000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="CaB" injectionSite="pointB">
+        <onset>               160000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+
+
+<!-- 5 -->
+  <InjectionStim specieID="CaB" injectionSite="sa1[0].pointA">
+        <onset>               200000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="CaB" injectionSite="sa3[0].pointA">
+        <onset>               200000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="CaB" injectionSite="pointB">
+        <onset>               200000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+
+
+<!-- 6 -->
+  <InjectionStim specieID="CaB" injectionSite="sa1[0].pointA">
+        <onset>               240000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="CaB" injectionSite="sa3[0].pointA">
+        <onset>               240000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="CaB" injectionSite="pointB">
+        <onset>               240000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+
+
+<!-- 7 -->
+  <InjectionStim specieID="CaB" injectionSite="sa1[0].pointA">
+        <onset>               280000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="CaB" injectionSite="sa3[0].pointA">
+        <onset>               280000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="CaB" injectionSite="pointB">
+        <onset>               280000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+
+
+
+<!-- 8 -->
+  <InjectionStim specieID="CaB" injectionSite="sa1[0].pointA">
+        <onset>               320000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="CaB" injectionSite="sa3[0].pointA">
+        <onset>               320000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="CaB" injectionSite="pointB">
+        <onset>               320000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+
+
+
+<!-- 9 -->
+  <InjectionStim specieID="CaB" injectionSite="sa1[0].pointA">
+        <onset>               360000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="CaB" injectionSite="sa3[0].pointA">
+        <onset>               360000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="CaB" injectionSite="pointB">
+        <onset>               360000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+
+
+
+<!-- 10 -->
+  <InjectionStim specieID="CaB" injectionSite="sa1[0].pointA">
+        <onset>               400000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="CaB" injectionSite="sa3[0].pointA">
+        <onset>               400000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="CaB" injectionSite="pointB">
+        <onset>               400000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+
+
+
+<!-- 11 -->
+  <InjectionStim specieID="CaB" injectionSite="sa1[0].pointA">
+        <onset>               440000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="CaB" injectionSite="sa3[0].pointA">
+        <onset>               440000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="CaB" injectionSite="pointB">
+        <onset>               440000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+
+
+
+<!-- 12 -->
+  <InjectionStim specieID="CaB" injectionSite="sa1[0].pointA">
+        <onset>               480000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="CaB" injectionSite="sa3[0].pointA">
+        <onset>               480000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+  <InjectionStim specieID="CaB" injectionSite="pointB">
+        <onset>               480000         </onset>
+        <duration>            471000         </duration>
+        <rate>                0.30           </rate>
+  </InjectionStim>
+
+
+
+
+</StimulationSet>
